@@ -15,17 +15,17 @@ from logging.handlers import RotatingFileHandler
 
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8759967542:AAFu5Ihd1zg1twzXGRQD-2wmnwCqPVM7x8g")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+APP_ID = int(os.environ.get("APP_ID", "25254887"))
+API_HASH = os.environ.get("API_HASH", "3a5618d56a913639448a55a2aea3a159")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+OWNER = os.environ.get("OWNER", "JenXAni") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "6382681292")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sarikawalzade80:AQwq2CoZj5QSmc2w@cluster0.xtdgrra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "Cluster1")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003513077064"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
